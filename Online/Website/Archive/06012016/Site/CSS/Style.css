@@ -1,0 +1,53 @@
+/*Import*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900,400italic,900italic);
+/*Theme*/
+.Theme-Black,.Theme-DarkGray{color:#FFF}
+.Theme-Black{background-color:#000}
+.Theme-DarkGray{background:#404040 url(../Interface/Background_Pattern-DarkGray.png) center fixed}
+.Theme-Gray{background-color:#808080}
+.Theme-Light,.Theme-White{color:#000}
+.Theme-LightGray{background:#BFBFBF url(../Interface/Background_Pattern-LightGray.png) center fixed}
+.Theme-White{background-color:#FFF}
+/*Document*/
+body,input,select,textarea,button{font-family:"Roboto",sans-serif}
+/*Typography*/
+h1,h2,h3,h4,h5,h6,em,.h1,.h2,.h3,.h4,.h5,.h6,.Button{font-weight:bold}
+h1,h2,h3,h4,h5,h6,label b,.h1,.h2,.h3,.h4,.h5,.h6{text-transform:capitalize}
+dt{font-weight:bold}
+a{color:#308FBF}
+em{font-style:normal}
+.Ignore{color:#808080}
+.Ignore a{
+	color:inherit;
+	text-decoration:underline}
+/*Format*/
+hr{background-color:#808080}
+.Border,.Borders>*{border-color:#808080}
+/*Media*/
+.Media{color:#808080}
+/*Form*/
+fieldset,input,select,textarea{border-color:#808080}
+legend{
+	background-color:#808080;
+	color:#FFF;
+	font-weight:bold}
+label b{color:#808080}
+input,select,textarea{
+	background-color:#FFF;
+	color:#000}
+/*Interactive*/
+.Badge,.Tag{border-radius:8rem}
+.Button,.Label{
+	font-weight:bold;
+	text-transform:capitalize}
+.Label{color:#808080}
+.Badge-Fill,.Button-Fill,.Tag-Fill{color:#FFF}
+.Badge-Fill,.Button-Fill{background-color:#308FBF}
+.Tag-Fill{background-color:#808080}
+.Badge-Outline,.Button-Outline{color:#308FBF}
+.Tag-Outline{color:#808080}
+/*Media Queries*/
+@media (min-width:1281px){}
+@media (max-width:1280px) and (min-width:960px){}
+@media (max-width:959px){}
+@media (max-width:639px){}

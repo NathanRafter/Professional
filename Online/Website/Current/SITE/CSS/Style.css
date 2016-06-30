@@ -109,6 +109,7 @@ img{
 #GlobalHeader,#GlobalHeader a{color:#FFF}
 #GlobalHeader{
 	background-color:#30BFBF;
+	background-image:url(../Media/Image/Background-GlobalHeader.jpg);
 	background-position:center;
 	background-size:cover}
 #Connect a+a{margin-left:1.75em}

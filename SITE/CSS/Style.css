@@ -145,7 +145,7 @@ img{
 	/*Content*/
 	.Content{padding:1rem 2rem}
 	/*Grid*/
-	.Grid+.Grid{margin-top:4rem}
+	.Grid+.Grid{margin-top:2rem}
 	/*Width*/
 	.Width-Title,.Width-Description{width:100%}
 	/*Identities*/

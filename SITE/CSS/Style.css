@@ -112,7 +112,7 @@ img{
 	background-image:url(../Media/Image/Background-GlobalHeader.jpg);
 	background-position:center;
 	background-size:cover}
-#Connect a+a{margin-left:1.75em}
+#Connect a+a{margin-left:1.75rem}
 /*Media Queries*/
 @media (max-width:1599px) and (min-width:1200px){
 	/*Typography*/

@@ -140,6 +140,12 @@ img{
 	html{font-size:14px}
 	/*Typography*/
 	h2{border-bottom:1px solid #BFBFBF}
+	/*Button*/
+	.Button{margin-top:1em}
+	/*Content*/
+	.Content{padding:1rem 2rem}
+	/*Grid*/
+	.Grid+.Grid{margin-top:4rem}
 	/*Width*/
 	.Width-Title,.Width-Description{width:100%}
 	/*Identities*/
@@ -148,8 +154,4 @@ img{
 @media (max-width:399px){
 	/*Document*/
 	html{font-size:12px}
-	/*Content*/
-	.Content{padding:1rem 2rem}
-	/*Button*/
-	.Button{margin-top:1em}
 }

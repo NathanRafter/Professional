@@ -1,1 +1,0 @@
-/*Toggle*/function Toggle(e){var t=document.getElementById(e);if(t.style.display=="block")t.style.display="none";else t.style.display="block"}function ToggleSection(e){var t=document.getElementById(e);if(t.style.display=="table")t.style.display="none";else t.style.display="table"}

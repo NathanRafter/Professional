@@ -137,7 +137,7 @@ img{
 }
 @media (max-width:799px){
 	/*Document*/
-	html{font-size:12px}
+	html{font-size:16px}
 	/*Typography*/
 	h2{border-bottom:1px solid #BFBFBF}
 	/*Width*/

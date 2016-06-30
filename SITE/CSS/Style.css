@@ -58,7 +58,7 @@ img{
 	margin-left:auto;
 	margin-right:auto}
 .Icon{height:8rem}
-/*Interactive*/
+/*Button*/
 .Button{
 	border-radius:.5em;
 	display:inline-block;
@@ -137,11 +137,19 @@ img{
 }
 @media (max-width:799px){
 	/*Document*/
-	html{font-size:16px}
+	html{font-size:14px}
 	/*Typography*/
 	h2{border-bottom:1px solid #BFBFBF}
 	/*Width*/
 	.Width-Title,.Width-Description{width:100%}
 	/*Identities*/
 	#Welcome{height:calc(50vh - 9rem)
+}
+@media (max-width:399px){
+	/*Document*/
+	html{font-size:12px}
+	/*Content*/
+	.Content{padding:1rem 2rem}
+	/*Button*/
+	.Button{margin-top:1em}
 }

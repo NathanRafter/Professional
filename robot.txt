@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /AddonDomain/
+Disallow: /SITE/
+
+Sitemap: http://www.nathanrafter.com/sitemap.xml

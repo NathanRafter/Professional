@@ -145,11 +145,9 @@ img{
 	/*Content*/
 	.Content{padding:1rem 2rem}
 	/*Grid*/
-	.Grid+.Grid{margin-top:4rem}
+	.Grid+.Grid{margin-top:2rem}
 	/*Width*/
 	.Width-Title,.Width-Description{width:100%}
-	/*Identities*/
-	#Welcome{height:calc(66.6666vh - 9rem)}
 }
 @media (max-width:399px){
 	/*Document*/

@@ -143,7 +143,7 @@ img{
 	/*Width*/
 	.Width-Title,.Width-Description{width:100%}
 	/*Identities*/
-	#Welcome{height:calc(50vh - 9rem)
+	#Welcome{height:calc(66.6666vh - 9rem)
 }
 @media (max-width:399px){
 	/*Document*/

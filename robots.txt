@@ -1,7 +1,7 @@
+# Robot URL Permissions
 User-agent: *
 Allow: /
-Disallow: /cgi-bin/
-Disallow: /AddonDomain/
-Disallow: /SITE/
-
+Allow: /sitemap.htm
+Disallow: /SITE
+# Sitemap URL
 Sitemap: http://www.nathanrafter.com/sitemap.xml

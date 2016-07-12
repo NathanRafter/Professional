@@ -4,6 +4,10 @@ RewriteEngine on
 RewriteCond %{HTTP_HOST} ^example.com [NC]
 RewriteRule ^(.*)$ http://www.example.com/$1 [R=301,L]
 ## End www. URL prefix ##
+## Start error URL redirect to root ##
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . / [L,R=301]
+## End error URL redirect to root ##
 ## Start browser caching ##
 <IfModule mod_expires.c>
 	ExpiresActive On

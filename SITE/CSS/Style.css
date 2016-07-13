@@ -18,20 +18,27 @@ body{
 	font-size:1em;
 	margin-left:auto;
 	margin-right:auto}
+/*Styles*/
+.Border{
+	border:1px solid;
+	border-top-color:#BF30BF;
+	border-left-color:#BF30BF;
+	border-bottom-color:#30BFBF;
+	border-right-color:#30BFBF}
 /*Typography*/
-h1,h2,h3,p,ul{padding-top:.75em}
-h1,h3,p,ul{padding-bottom:.75em}
-
 h1,h2,h3{
 	font-weight:bold}
+h1,h3,p,ol,ul{
+	padding-bottom:.75em;
+	padding-top:.75em}
 h1{font-size:200%}
 h2,h3{font-size:100%}
 h2{
 	margin-bottom:1em;
 	padding-bottom:1.75em;
+	padding-top:.75em;
 	text-transform:uppercase}
-h2 .fa{margin-right:.75em}
-ul{padding-left:1em}
+ol,ul{padding-left:1em}
 a{
 	color:#30BFBF;
 	cursor:pointer;
@@ -101,9 +108,10 @@ img{
 	width:100%}
 .Grid+.Grid{margin-top:6rem}
 /*Width*/
-.Widths-Auto>*{width:auto}
 .Width-Title{width:33.3333%}
 .Width-Description{width:66.6666%}
+.Widths-50>*{width:50%}
+.Width-100{width:100%}
 /*Identities*/
 #GlobalHeader,#GlobalFooter{text-align:center}
 #GlobalHeader,#GlobalHeader a{color:#FFF}
@@ -113,12 +121,13 @@ img{
 	background-position:center;
 	background-size:cover}
 #Connect a+a{margin-left:1.75rem}
+#Main .Button{margin-top:7em}
 /*Media Queries*/
 @media (max-width:1599px) and (min-width:1200px){
 	/*Typography*/
 	h2{border-bottom:1px solid #BFBFBF}
-	/*Width*/
-	.Width-Title,.Width-Description{width:100%}
+	/*Grid*/
+	.Grid>*{width:100%}
 }
 @media (min-width:1200px){
 	/*Document*/
@@ -145,9 +154,8 @@ img{
 	/*Content*/
 	.Content{padding:1rem 2rem}
 	/*Grid*/
+	.Grid>*{width:100%}
 	.Grid+.Grid{margin-top:2rem}
-	/*Width*/
-	.Width-Title,.Width-Description{width:100%}
 }
 @media (max-width:399px){
 	/*Document*/

@@ -156,6 +156,8 @@ img{
 	/*Grid*/
 	.Grid>*{width:100%}
 	.Grid+.Grid{margin-top:2rem}
+	/*Identity*/
+	#Main .Button{margin-top:3em}
 }
 @media (max-width:399px){
 	/*Document*/

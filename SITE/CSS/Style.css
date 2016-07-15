@@ -122,9 +122,7 @@ img{
 	background-position:center;
 	background-size:cover}
 #Connect a+a{margin-left:1.75rem}
-#Main{
-	min-height:calc(100vh - 9rem)
-	height:auto}
+#Main{min-height:calc(100vh - 9rem)}
 #Main .Button{margin-top:7em}
 /*Media Queries*/
 @media (max-width:1599px) and (min-width:1200px){

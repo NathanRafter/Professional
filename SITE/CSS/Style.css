@@ -147,8 +147,6 @@ img{
 	#Welcome{height:calc(75vh - 9rem)
 }
 @media (max-width:799px){
-	/*Document*/
-	html{font-size:12px}
 	/*Typography*/
 	h2{border-bottom:1px solid #BFBFBF}
 	/*Content*/
@@ -159,6 +157,4 @@ img{
 	.Grid>*{width:100%}
 }
 @media (max-width:399px){
-	/*Document*/
-	html{font-size:10px}
 }

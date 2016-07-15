@@ -107,7 +107,7 @@ img{
 	padding-left:1rem;
 	padding-right:1rem;
 	width:100%}
-.Grid+.Grid{margin-top:6rem}
+.Grid+.Grid{padding-top:6rem}
 /*Width*/
 .Width-Title{width:33.3333%}
 .Width-Description{width:66.6666%}
@@ -157,7 +157,7 @@ img{
 	.Content{padding:1rem 2rem}
 	/*Grid*/
 	.Grid>*{width:100%}
-	.Grid+.Grid{margin-top:2rem}
+	.Grid+.Grid{padding-top:2rem}
 	/*Identity*/
 	#Main .Button{margin-top:3em}
 }

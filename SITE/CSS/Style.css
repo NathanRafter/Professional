@@ -151,15 +151,13 @@ img{
 	html{font-size:14px}
 	/*Typography*/
 	h2{border-bottom:1px solid #BFBFBF}
-	/*Button*/
-	.Button{margin-top:1em}
 	/*Content*/
-	.Content{padding:1rem 2rem}
+	.Content{
+		padding-left:2rem;
+		padding-right:2rem}
 	/*Grid*/
 	.Grid>*{width:100%}
 	.Grid+.Grid{padding-top:2rem}
-	/*Identity*/
-	#Main .Button{margin-top:3em}
 }
 @media (max-width:399px){
 	/*Document*/

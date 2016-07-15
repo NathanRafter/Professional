@@ -157,7 +157,6 @@ img{
 		padding-right:2rem}
 	/*Grid*/
 	.Grid>*{width:100%}
-	.Grid+.Grid{padding-top:2rem}
 }
 @media (max-width:399px){
 	/*Document*/

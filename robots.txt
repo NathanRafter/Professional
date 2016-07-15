@@ -1,7 +1,7 @@
 # Robot URL Permissions
 User-agent: *
 Allow: /
-Allow: /sitemap.htm
 Disallow: /SITE
+Disallow: /error
 # Sitemap URL
 Sitemap: http://www.nathanrafter.com/sitemap.xml

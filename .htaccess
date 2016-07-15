@@ -1,15 +1,22 @@
+# Start server file privacy
+<Files .htaccess>
+	order deny,allow
+	deny from all
+</Files>
+<Files .ftpquota>
+	order deny,allow
+	deny from all
+</Files>
+# End server file privacy
 # Start www. URL prefix
 	Options +FollowSymLinks
 	RewriteEngine on
 	RewriteCond %{HTTP_HOST} ^nathanrafter.com [NC]
 	RewriteRule ^(.*)$ http://www.nathanrafter.com/$1 [R=301,L]
 # End www. URL prefix
-# Start URL error redirect to root
+# Start URL error redirect
 	ErrorDocument 404 /error/404/index.html
-# End URL error redirect to root
-# Start browser caching
-	# Header set Cache-Control "max-age=604800, public"
-# End browser caching
+# End URL error redirect
 # Start GZIP compression
 <IfModule mod_deflate.c>
 	AddOutputFilterByType DEFLATE application/javascript
@@ -35,3 +42,6 @@
 	AddOutputFilterByType DEFLATE text/xml
 </IfModule>
 # End GZIP compression
+# Start browser caching
+	Header set Cache-Control "max-age=604800, public"
+# End browser caching

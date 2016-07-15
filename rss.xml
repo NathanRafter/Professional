@@ -3,7 +3,7 @@
   <channel>
     <title>The Portfolio Of Nathan Rafter</title>
     <link>http://www.nathanrafter.com</link>
-    <description />
+    <description>The online portfolio of creative professional Nathan Rafter.<description/>
     <item>
       <guid>http://www.nathanrafter.com/</guid>
       <title>The Portfolio Of Nathan Rafter</title>
@@ -11,10 +11,22 @@
       <description>Nathan Rafter is a creative professional with over a decade of experience growing business for clientele including ESPN, Sykes Enterprises, and Honda.</description>
     </item>
     <item>
-      <guid>http://www.nathanrafter.com/SITE/Download/NathanRafter-Resume.pdf</guid>
-      <title>NathanRafter-Resume.pdf</title>
-      <link>http://www.nathanrafter.com/SITE/Download/NathanRafter-Resume.pdf</link>
-      <description />
+      <guid>http://www.nathanrafter.com/SITE/Download/NathanRafter_Resume.pdf</guid>
+      <title>The Resume Of Nathan Rafter</title>
+      <link>http://www.nathanrafter.com/SITE/Download/NathanRafter_Resume.pdf</link>
+      <description>The PDF resume of creative professional Nathan Rafter.<description/>
+    </item>
+    <item>
+      <guid>http://www.nathanrafter.com/project/myo/</guid>
+      <title>MyO &bull; The Portfolio Of Nathan Rafter</title>
+      <link>http://www.nathanrafter.com/project/myo/</link>
+      <description>The MyO app was created by Nathan Rafter to aggregate events, points-of-interest, and restaurants in Central Florida.<description/>
+    </item>
+    <item>
+      <guid>http://www.nathanrafter.com/project/telespeak/</guid>
+      <title>Telespeak &bull; The Portfolio Of Nathan Rafter</title>
+      <link>http://www.nathanrafter.com/project/telespeak/</link>
+      <description>As Director of Marketing, Nathan Rafter developed and implemented a complete branding package for Telespeak.<description/>
     </item>
   </channel>
 </rss>

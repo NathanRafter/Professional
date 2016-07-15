@@ -3,5 +3,6 @@ User-agent: *
 Allow: /
 Disallow: /SITE
 Disallow: /error
+Disallow: /colophon
 # Sitemap URL
 Sitemap: http://www.nathanrafter.com/sitemap.xml

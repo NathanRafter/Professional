@@ -1,8 +1,13 @@
-# Robot URL Permissions
+# Start robots URL permissions
 User-agent: *
 Allow: /
+Disallow: /cgi-bin
 Disallow: /SITE
 Disallow: /error
 Disallow: /colophon
-# Sitemap URL
+Disallow: /.htaccess
+Disallow: /.ftpquota
+# End robots URL permissions
+# Start sitemap URL
 Sitemap: http://www.nathanrafter.com/sitemap.xml
+# End sitemap URL

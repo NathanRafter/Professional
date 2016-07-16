@@ -21,8 +21,8 @@ body{
 /*Styles*/
 .Border{
 	border:1px solid;
-	border-top-color:#BF30BF;
-	border-left-color:#BF30BF;
+	border-top-color:#7830BF;
+	border-left-color:#7830BF;
 	border-bottom-color:#30BFBF;
 	border-right-color:#30BFBF}
 /*Typography*/
@@ -143,14 +143,10 @@ img{
 	#Welcome{height:calc(100vh - 9rem)}
 }
 @media (max-width:1199px){
-	/*Document*/
-	html{font-size:14px}
 	/*Identities*/
 	#Welcome{height:calc(75vh - 9rem)
 }
 @media (max-width:799px){
-	/*Document*/
-	html{font-size:12px}
 	/*Typography*/
 	h2{border-bottom:1px solid #BFBFBF}
 	/*Content*/
@@ -162,5 +158,5 @@ img{
 }
 @media (max-width:399px){
 	/*Document*/
-	html{font-size:10px}
+	html{font-size:12px}
 }

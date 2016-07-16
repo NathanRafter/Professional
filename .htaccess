@@ -1,24 +1,28 @@
 # Start server file privacy
-<Files .htaccess>
-	order deny,allow
-	deny from all
-</Files>
-<Files .ftpquota>
-	order deny,allow
-	deny from all
-</Files>
+	<Files .htaccess>
+		order deny,allow
+		deny from all
+	</Files>
+	<Files .ftpquota>
+		order deny,allow
+		deny from all
+	</Files>
 # End server file privacy
 # Start www. URL prefix
-	Options +FollowSymLinks
 	RewriteEngine on
-	RewriteCond %{HTTP_HOST} ^nathanrafter.com [NC]
-	RewriteRule ^(.*)$ http://www.nathanrafter.com/$1 [R=301,L]
+	# Redirect to domain with www.
+	RewriteCond %{HTTPS} off
+	RewriteCond %{HTTP_HOST} !^www\. [NC]
+	RewriteRule .* http://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+	# Same for HTTPS:
+	RewriteCond %{HTTPS} on
+	RewriteCond %{HTTP_HOST} !^www\. [NC]
+	RewriteRule .* https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 # End www. URL prefix
 # Start URL error redirect
-	ErrorDocument 404 /error/404/index.html
+	ErrorDocument 404 /error/404/
 # End URL error redirect
 # Start GZIP compression
-<IfModule mod_deflate.c>
 	AddOutputFilterByType DEFLATE application/javascript
 	AddOutputFilterByType DEFLATE application/rss+xml
 	AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
@@ -40,8 +44,9 @@
 	AddOutputFilterByType DEFLATE text/javascript
 	AddOutputFilterByType DEFLATE text/plain
 	AddOutputFilterByType DEFLATE text/xml
-</IfModule>
 # End GZIP compression
 # Start browser caching
-	Header set Cache-Control "max-age=604800, public"
+	<FilesMatch ".(ico|jpg|jpeg|png|gif|js|css|swf)$">
+	    Header set Cache-Control "max-age=604800"
+	</FilesMatch>
 # End browser caching

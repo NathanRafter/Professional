@@ -159,4 +159,6 @@ img{
 @media (max-width:399px){
 	/*Document*/
 	html{font-size:12px}
+	/*Identities*/
+	#Welcome,#Main{height:auto}
 }

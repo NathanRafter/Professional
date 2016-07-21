@@ -47,6 +47,9 @@ span{
 	font-weight:bold;
 	margin-left:.5rem;
 	margin-right:.5rem}
+::selection{
+	background:#000;
+	color:#FFF}
 /*Rich Media*/
 img{
 	display:inline-block;
